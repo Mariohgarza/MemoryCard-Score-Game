@@ -19,7 +19,7 @@ class App extends Component {
 
   state = {
     friends : friends,
-    msg: "Click an Image to start!",
+    msg: <h2> <strong>Click an Image to start!</strong></h2>,
     topscore: 0,
     score: 0,
     unselected:friends
@@ -29,7 +29,7 @@ class App extends Component {
     const findImage = this.state.unselected.find(item => item.image === image);
     if(findImage === undefined) {
         this.setState({
-            msg: "UUUpps try again!",
+            msg: <h3><strong> Sorry try again!</strong></h3>,
             topscore: (this.state.score > this.state.topscore) ? this.state.score : this.state.topscore,
             score: 0,
             friends: friends,
@@ -40,7 +40,7 @@ class App extends Component {
     else {
         const newImages = this.state.unselected.filter(item => item.image !== image);
         this.setState({
-            msg: "Good Job, SCORE!",
+            msg: <h3><strong>Nice! Keep going!</strong></h3>,
             score: this.state.score + 1,
             friends: friends,
             unselected: newImages
@@ -65,7 +65,7 @@ class App extends Component {
     return (
       <div>
       <Navbar
-            title="Memory Card Score Game!"
+            title=" Lord of the Rings Game!"
             msg={this.state.msg}
             score={this.state.score}
             topscore={this.state.topscore}
@@ -78,6 +78,8 @@ class App extends Component {
             id={friend.id}
             key={friend.id}
             name={friend.name}
+            occupation={friend.occupation}
+            location={friend.location}
             image={friend.image}
           />
         ))}

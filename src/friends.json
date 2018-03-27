@@ -1,86 +1,86 @@
 [
   {
     "id": 1,
-    "name": "SpongeBob",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Spongebob-squarepants.svg/666px-Spongebob-squarepants.svg.png",
-    "occupation": "Fry Cook",
-    "location": "A Pineapple Under the Sea"
+    "name": "Legolas",
+    "image": "https://static0.srcdn.com/wp-content/uploads/2017/02/Orlando-Bloom-as-Legolas-Greenleaf-The-Lord-of-the-Rings-Fellowship-of-the-Ring-Bow.jpg",
+    "occupation": " Elf Fighter",
+    "location": "A random forest"
   },
   {
     "id": 2,
-    "name": "Mr. Krabs",
-    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    "occupation": "Restaurant Owner",
+    "name": "Aragon",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqMpMfc3FnCeIwtzjla7to_cAlIsW7Ct1htNiWpoHJHLvaZ_f0lA",
+    "occupation": "Frodo's Bodyguard",
     "location": "A Giant Anchor"
   },
   {
     "id": 3,
-    "name": "Squidward",
-    "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "name": "Gandalf the Grey",
+    "image": "http://3.bp.blogspot.com/-R5gbOsz8VKo/VKV2bwpt5nI/AAAAAAAAZ0A/-KMYq9tFdAo/s1600/01-Gandalf-The-Grey-Ian-McKellen-Josi-Fabri-Esteljf-The%2BHobbit-LotR-www-designstack-co.jpg",
+    "occupation": "Peace Keeper",
+    "location": "An Easter Island"
   },
   {
     "id": 4,
-    "name": "Dexter",
-    "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
-    "occupation": "Boy Genius",
-    "location": "A Secret Laboratory"
+    "name": "Frodo",
+    "image": "https://i.pinimg.com/736x/cf/db/b0/cfdbb073f68754b0cfd47d1bf53c3539--hobbit-hole-the-hobbit.jpg",
+    "occupation": "The ring holder",
+    "location": "The Shair"
   },
   {
     "id": 5,
-    "name": "Courage",
-    "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
-    "occupation": "A Cowardly Dog",
+    "name": "Sam",
+    "image": "http://www-images.theonering.org/torwp/wp-content/uploads/2013/05/samwise_74.jpg-720%C3%97301-pixels-300x227.jpg",
+    "occupation": "Frodo's best friend",
     "location": "Nowhere, Kansas"
   },
   {
     "id": 6,
-    "name": "Doug Funnie",
-    "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
-    "occupation": "Student",
+    "name": "Peregrin",
+    "image": "https://pbs.twimg.com/profile_images/669212702179532800/vmH9quXh.jpg",
+    "occupation": "Frodo's helper",
     "location": "Bluffington"
   },
   {
     "id": 7,
-    "name": "Bugs Bunny",
-    "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607",
-    "occupation": "Looney Toon",
-    "location": "A Rabbit Burrow"
+    "name": "The Ring",
+    "image": "https://cdn.vox-cdn.com/thumbor/nRu2ccLSeYke8-EGrIi1ohMDLdI=/0x0:825x464/1200x800/filters:focal(347x166:479x298)/cdn.vox-cdn.com/uploads/chorus_image/image/57584235/DOiAi2WUEAE3A1Y.0.jpg",
+    "occupation": "To Return to Master",
+    "location": "A Rabbit hole"
   },
   {
     "id": 8,
-    "name": "Johnny Bravo",
-    "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist",
-    "occupation": "Ladies Man",
+    "name": "Gollum",
+    "image": "https://cdn3.whatculture.com/images/2014/10/The-Lord-Of-The-Rings-Gollum-Andy-Serkis-600x400.jpg",
+    "occupation": "To take the ring back",
     "location": "Aron City"
   },
   {
     "id": 9,
-    "name": "Tommy Pickles",
-    "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641",
-    "occupation": "Adventurer",
+    "name": "The Balrog",
+    "image": "https://vignette.wikia.nocookie.net/jadensadventures/images/6/67/Poster_3.jpg/revision/latest?cb=20140122143655",
+    "occupation": "Evil Spirit",
     "location": "California"
   },
   {
     "id": 10,
-    "name": "Rocko",
-    "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416",
-    "occupation": "Cashier",
-    "location": "O-Town, California"
+    "name": "The Eye",
+    "image": "https://i.ytimg.com/vi/P3bQ7wL1f0o/maxresdefault.jpg",
+    "occupation": "Evil Master",
+    "location": "Mordor"
   },
   {
     "id": 11,
-    "name": "Captain Planet",
-    "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836",
-    "occupation": "Superhero",
+    "name": "Dead King spirit",
+    "image": "https://s3.amazonaws.com/gs-geo-images/3813e2a8-3551-4b3d-996a-c67656a46739.jpg",
+    "occupation": "Killer",
     "location": "Earth"
   },
   {
     "id": 12,
-    "name": "Ickis",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
+    "name": "Boromir",
+    "image": "https://vignette.wikia.nocookie.net/factpile/images/6/66/Lotr-boromir-1280jpg-b6a4d5_1280w.jpg/revision/latest?cb=20160331232305",
+    "occupation": "memes Creator!",
     "location": "Under a City Dump"
   }
 ]
