@@ -5,12 +5,12 @@ import Navbar from "./components/Navbar";
 import friends from "./friends.json";
 import "./App.css";
 
-function shuffle(friends) {
+function randomPic(friends) {
     for (let i = friends.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
-      const friendsTemp = friends[i];
+      const friendsArr = friends[i];
       friends[i] = friends[j];
-      friends[j] = friendsTemp;
+      friends[j] = friendsArr;
     }
     return friends;
 };
@@ -25,42 +25,42 @@ class App extends Component {
     unselected:friends
   };
 
- scoreChange = image => {
+ scoreUpdate = image => {
     const findImage = this.state.unselected.find(item => item.image === image);
     if(findImage === undefined) {
         this.setState({
-            msg: <h3><strong> Sorry try again!</strong></h3>,
+            msg: <h1><strong> Sorry try again!</strong></h1>,
             topscore: (this.state.score > this.state.topscore) ? this.state.score : this.state.topscore,
             score: 0,
             friends: friends,
             unselected: friends
         });
-        this.moveImage();
+        this.movePic();
     }
     else {
         const newImages = this.state.unselected.filter(item => item.image !== image);
         this.setState({
-            msg: <h3><strong>Nice! Keep going!</strong></h3>,
+            msg: <h2><strong>Nice! Keep going!</strong></h2>,
             score: this.state.score + 1,
             friends: friends,
             unselected: newImages
         });
-        this.moveImage();
+        this.movePic();
     }
 
   };
 
-  moveImage = () => {
-    // Filter this.state.friends for friends with an id not equal to the id being removed
-    const friendsNew = shuffle(this.state.friends);
-    // Set this.state.friends equal to the new friends array
+  movePic = () => {
+
+    const friendsNew = randomPic(this.state.friends);
+
     this.setState({
       friends : friendsNew,
     });
   };
 
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
+
   render() {
     return (
       <div>
@@ -73,7 +73,7 @@ class App extends Component {
       <Wrapper>
         {this.state.friends.map(friend => (
           <FriendCard
-            scoreChange={this.scoreChange}
+            scoreUpdate={this.scoreUpdate}
             moveImage={this.moveImage}
             id={friend.id}
             key={friend.id}
